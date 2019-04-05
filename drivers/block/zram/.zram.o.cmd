@@ -1,0 +1,1 @@
+cmd_drivers/block/zram/zram.o := ../prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/block/zram/zram.o drivers/block/zram/zcomp_lzo.o drivers/block/zram/zcomp.o drivers/block/zram/zram_drv.o ; scripts/mod/modpost drivers/block/zram/zram.o

@@ -1,0 +1,9 @@
+#
+# RK_IR devices
+#
+
+menuconfig RK_IR
+	tristate "ITC RK3288 IR support"
+	default n
+	help
+	  This option enables support for RK3288 IR

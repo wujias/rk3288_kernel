@@ -1,0 +1,1 @@
+cmd_drivers/accessibility/built-in.o :=  ../prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/accessibility/built-in.o drivers/accessibility/braille/built-in.o ; scripts/mod/modpost drivers/accessibility/built-in.o

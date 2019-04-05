@@ -1,0 +1,1 @@
+obj-$(CONFIG_RK_IR)    += zkir_dev.o

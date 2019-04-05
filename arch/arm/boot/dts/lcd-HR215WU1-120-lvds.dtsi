@@ -1,0 +1,33 @@
+/*
+ * RockChip. LCD_HR215WU1-120_LVDS_1920*1080 FOR rk3288
+ *
+ */
+
+/ {
+
+        disp_timings: display-timings {
+	        native-mode = <&timing0>;
+	        timing0: timing0 {
+	                screen-type = <SCREEN_DUAL_LVDS>;
+	                lvds-format = <LVDS_8BIT_1>;
+	                out-face    = <OUT_P888>;
+	                color-mode = <COLOR_RGB>;
+	                clock-frequency = <120000000>;
+	                hactive = <1920>;
+	                vactive = <1080>;
+	                hback-porch = <32>;
+	                hfront-porch = <42>;
+	                vback-porch = <5>;
+	                vfront-porch = <23>;
+	                hsync-len = <10>;
+	                vsync-len = <6>;
+	                hsync-active = <1>;
+	                vsync-active = <1>;
+	                de-active = <0>;
+	                pixelclk-active = <0>;
+	                swap-rb = <0>;
+	                swap-rg = <0>;
+	                swap-gb = <0>;
+            };
+       };
+};

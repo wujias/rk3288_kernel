@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/vtl_ts/vtl_ts_ct36x.o := ../prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/input/touchscreen/vtl_ts/vtl_ts_ct36x.o drivers/input/touchscreen/vtl_ts/vtl_ts.o drivers/input/touchscreen/vtl_ts/chip.o drivers/input/touchscreen/vtl_ts/apk.o ; scripts/mod/modpost drivers/input/touchscreen/vtl_ts/vtl_ts_ct36x.o

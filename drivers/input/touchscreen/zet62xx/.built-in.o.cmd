@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/zet62xx/built-in.o :=  ../prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/input/touchscreen/zet62xx/built-in.o drivers/input/touchscreen/zet62xx/zet62xx.o ; scripts/mod/modpost drivers/input/touchscreen/zet62xx/built-in.o

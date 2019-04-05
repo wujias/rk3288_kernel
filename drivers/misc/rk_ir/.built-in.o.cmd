@@ -1,0 +1,1 @@
+cmd_drivers/misc/rk_ir/built-in.o :=  ../prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/misc/rk_ir/built-in.o drivers/misc/rk_ir/zkir_dev.o ; scripts/mod/modpost drivers/misc/rk_ir/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/android/built-in.o :=  ../prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/android/built-in.o drivers/android/binder.o ; scripts/mod/modpost drivers/android/built-in.o
